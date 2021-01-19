@@ -515,9 +515,9 @@ $config = array(
          10 => array(
              'class' => 'core:AttributeMap', 'addurnprefix'
          ), */
-        /* Enable the authproc filter below to automatically generated eduPersonTargetedID.
+        // Enable the authproc filter below to automatically generated eduPersonTargetedID.
         20 => 'core:TargetedID',
-        */
+        
 
         // Adopts language from attribute to use in UI
         30 => 'core:LanguageAdaptor',
