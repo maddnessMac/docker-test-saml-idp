@@ -18,6 +18,7 @@ COPY config/simplesamlphp/authsources.php /var/www/simplesamlphp/config
 COPY config/simplesamlphp/saml20-sp-remote.php /var/www/simplesamlphp/metadata
 COPY config/simplesamlphp/server.crt /var/www/simplesamlphp/cert/
 COPY config/simplesamlphp/server.pem /var/www/simplesamlphp/cert/
+COPY config/simplesamlphp/saml20-idp-hosted.php /var/www/simplesamlphp/metadata/
 
 # Apache
 COPY config/apache/ports.conf /etc/apache2
