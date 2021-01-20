@@ -1,8 +1,9 @@
 # Docker Test SAML 2.0 Identity Provider (IdP)
+(Forked from kristophjunge/docker-test-saml-idp)
 
-[![DockerHub Pulls](https://img.shields.io/docker/pulls/kristophjunge/test-saml-idp.svg)](https://hub.docker.com/r/kristophjunge/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/kristophjunge/test-saml-idp.svg)](https://hub.docker.com/r/kristophjunge/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/kristophjunge/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/kristophjunge/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/kristophjunge/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/kristophjunge/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/kristophjunge/docker-test-saml-idp.svg)](https://github.com/kristophjunge/docker-test-saml-idp)
+[![DockerHub Pulls](https://img.shields.io/docker/pulls/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/daviann/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/daviann/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/daviann/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/daviann/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/daviann/docker-test-saml-idp.svg)](https://github.com/daviann/docker-test-saml-idp)
 
-![Seal of Approval](https://raw.githubusercontent.com/kristophjunge/docker-test-saml-idp/master/seal.jpg)
+![Seal of Approval](https://raw.githubusercontent.com/daviann/docker-test-saml-idp/master/seal.jpg)
 
 Docker container with a plug and play SAML 2.0 Identity Provider (IdP) for development and testing.
 
@@ -23,19 +24,19 @@ The contained version of SimpleSAMLphp is 1.15.2.
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/kristophjunge/docker-test-saml-idp/blob/master/docs/CHANGELOG.md) for information about the latest changes.
+See [CHANGELOG.md](https://github.com/daviann/docker-test-saml-idp/blob/master/docs/CHANGELOG.md) for information about the latest changes.
 
 
 ## Usage
 
 ```
-docker run --name=testsamlidp_idp \
+docker run --name=DaviannSamlIdp_idp \
 -p 8080:8080 \
 -p 8443:8443 \
--e SIMPLESAMLPHP_SP_ENTITY_ID=http://app.example.com \
--e SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE=http://localhost/simplesaml/module.php/saml/sp/saml2-acs.php/test-sp \
--e SIMPLESAMLPHP_SP_SINGLE_LOGOUT_SERVICE=http://localhost/simplesaml/module.php/saml/sp/saml2-logout.php/test-sp \
--d kristophjunge/test-saml-idp
+-e SIMPLESAMLPHP_SP_ENTITY_ID=SplunkEntityID \
+-e SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE=http://localhost:8000/saml/acs \
+-e SIMPLESAMLPHP_SP_SINGLE_LOGOUT_SERVICE=http://localhost:8000/saml/logout \
+-d daviann/test-saml-idp
 ```
 
 There are two static users configured in the IdP with the following data:
