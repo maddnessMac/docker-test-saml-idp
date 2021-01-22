@@ -1,0 +1,20 @@
+<md:EntityDescriptor entityID="http://localhost:8080/simplesaml/saml2/idp/metadata.php" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"><md:KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>
+MIIDMjCCAhoCCQDcmSwdLKtrazANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJV
+UzELMAkGA1UECAwCQ0ExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDzANBgNVBAoM
+BlNwbHVuazEXMBUGA1UEAwwOU3BsdW5rQ29tbW9uQ0ExITAfBgkqhkiG9w0BCQEW
+EnN1cHBvcnRAc3BsdW5rLmNvbTAeFw0xODExMjkwOTUwMjNaFw0yMTExMjgwOTUw
+MjNaMDcxIDAeBgNVBAMMF1NwbHVua1NlcnZlckRlZmF1bHRDZXJ0MRMwEQYDVQQK
+DApTcGx1bmtVc2VyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu9fy
+v8a3Sg4BcOiC6iPW3wj44J7MWfzuFFNtf8rbDruNS9GUaGr01LAvH5AIhqfMza4Y
+se1/d8yQl+xKBTHTyJWVf7stfqHrHweQ9F2ZFlBC9LRT9a81j8xPgxe55FzyQu/J
+acehrSXcDuRHJcPpM8eqxRZgdMb6dWUMA2NB6V3vvpSSsb1TzJX6E225tb6mKpIP
+xc0b2+wNE0w07Nrc5E/FQztkAV4uUU+PWYH7mgLtnr2oH6Q7Fe6zxAiBfwRVJy3i
+Ani7RzAVCmOsEAzOMYGP4un/uOu4FEpq2ngGmtwDnNcG5VHJt+Tt+YKLz5xrWXUP
+dzrhJmE/9Z0n5lHVGQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDBHXpcOp7BzVlq
+9rYqUqrArD2dUdOvxyuXUTbJlPcrj/bi/l7s11QPgmJy6puyvIqd+7ccTQOdKmRo
+jzFPJ4gKZ34JwvOYAxFXugg3ip7v9lqKeLh4EftBrA5TZmRmWaLhjkOpvYrAfqwR
+AGWwKjOK9GyC3MGEM7JGFEWGv4ve7x/cdHWxH/yWuXwscd/p39I0yDPKR2P+sMAJ
+e822+rgNcl1aPIay9pgz51QM4reK7nz2TGnPce7PfjqH7SjIbHipetPxmBN5kLmJ
+mdU0GkW/jvFkDz5eMa4C7TjMmcr3gQj+2jCUO/38PzYqsi7VMYVrrAX8NaRzQ0pi
+dO+BBQSi
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8000/saml/logout" index="0"></md:SingleLogoutService><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8000/saml/acs" index="0"></md:AssertionConsumerService></md:SPSSODescriptor></md:EntityDescriptor>
