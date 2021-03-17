@@ -3,8 +3,6 @@
 
 [![DockerHub Pulls](https://img.shields.io/docker/pulls/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/daviann/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/daviann/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/daviann/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/daviann/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/daviann/docker-test-saml-idp.svg)](https://github.com/daviann/docker-test-saml-idp)
 
-![Seal of Approval](https://raw.githubusercontent.com/daviann/docker-test-saml-idp/master/seal.jpg)
-
 Docker container with a plug and play SAML 2.0 Identity Provider (IdP) for development and testing.
 
 Built with [SimpleSAMLphp](https://simplesamlphp.org). Based on official PHP7 Apache [images](https://hub.docker.com/_/php/).
