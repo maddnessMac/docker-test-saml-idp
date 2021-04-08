@@ -1,7 +1,7 @@
 # Docker Test SAML 2.0 Identity Provider (IdP)
 (Forked from kristophjunge/docker-test-saml-idp)
 
-[![DockerHub Pulls](https://img.shields.io/docker/pulls/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/daviann/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/daviann/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/daviann/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/daviann/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/daviann/docker-test-saml-idp.svg)](https://github.com/daviann/docker-test-saml-idp)
+[![DockerHub Pulls](https://img.shields.io/docker/pulls/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![DockerHub Stars](https://img.shields.io/docker/stars/daviann/test-saml-idp.svg)](https://hub.docker.com/r/daviann/test-saml-idp/) [![GitHub Stars](https://img.shields.io/github/stars/maddnessmac/docker-test-saml-idp.svg?label=github%20stars)](https://github.com/maddnessmac/docker-test-saml-idp) [![GitHub Forks](https://img.shields.io/github/forks/maddnessmac/docker-test-saml-idp.svg?label=github%20forks)](https://github.com/maddnessmac/docker-test-saml-idp) [![GitHub License](https://img.shields.io/github/license/maddnessmac/docker-test-saml-idp.svg)](https://github.com/maddnessmac/docker-test-saml-idp)
 
 Docker container with a plug and play SAML 2.0 Identity Provider (IdP) for development and testing.
 
